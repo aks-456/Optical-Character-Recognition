@@ -72,7 +72,7 @@ def ocr(filepath, api_key):
             "date": str(dateTimeObj.year) + '/' + str(dateTimeObj.month) + '/' + str(dateTimeObj.day), #Store date that API was used
             "api": "OCR" #Store which API was being used (if you have multiple)
         })
-        return make_response(ocr_core(filepath)) #Return text in image to API request
+        return make_response(ocr_core(filepath)) #Return text in image to API request source
 
     else: #If API key does not exist, return an error
         make_response("API Key does not exist.") 
