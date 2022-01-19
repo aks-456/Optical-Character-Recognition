@@ -1,5 +1,5 @@
 # Optical-Character-Recognition
-An API for Optical Character Recognition (OCR)
+An API for Optical Character Recognition using Pytesseract, Python, and Flask
 
 ## ocr_api
 The ocr_api/main.py file is an API which accepts a POST request with an image parameter, then returns the text in that image as a response. The API can be hosted on heroku, but make sure the necessary python libraries are installed. 
