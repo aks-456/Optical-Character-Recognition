@@ -8,8 +8,6 @@ import numpy as np
 import os
 from flask import Flask, request, redirect, url_for, make_response
 from werkzeug import secure_filename
-import cv2
-from datetime import datetime
 
 #Use Pytesseract to return ocr text from image 
 def ocr_core(filename):
